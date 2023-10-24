@@ -8,12 +8,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="daisyui.css">
-  <script src="tailwind.js"></script>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body class="font-[Poppins]">
-  <nav class="z-10 sticky top-0 navbar bg-base-100 shadow shadow-md shadow-base-400">
+  <nav class="z-10 sticky top-0 navbar bg-base-100 shadow shadow-lg shadow-base-400">
     <div class="flex-1">
       <a href="#" class="btn btn-ghost normal-case text-xl text-primary">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -33,7 +31,7 @@
           <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
         </svg>
       </a>
-      <a target="_blank" href="https://wa.me/6282116568127" class="btn btn-square btn-ghost">
+      <a target="_blank" href="https://wa.me/p/24353958857520896/6282116568127" class="btn btn-square btn-ghost">
         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
         </svg>
@@ -41,7 +39,7 @@
       </a>
     </div>
   </nav>
-  <main class="p-4 pb-24">
+  <main class="p-4 pb-24 max-w-screen-lg m-auto">
     <div id="chat-box">
       <div class="chat chat-start">
         <div class="chat-bubble chat-bubble-accent">Halo! saya adalah AI. <br/><br/>Ketik Menu untuk mulai berselancar. </div>
@@ -50,7 +48,7 @@
     
     <!-- input pesan -->
     <div class="z-10 fixed left-0 bottom-0 flex justify-center bg-base-100 p-4 w-full">
-      <div class="flex items-center w-full">
+      <div class="flex items-center w-full max-w-screen-lg m-auto">
         <input id="user-input" type="text" placeholder="Berselancar..." class="input input-bordered rounded-full mr-2 w-full"/>
         <button id="send-button" class="btn btn-square btn-primary rounded-full btn-disabled">
           <span id="load-chat" class="loading loading-dots hidden"></span>

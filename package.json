@@ -1,0 +1,28 @@
+{
+  "name": "reyzeebot",
+  "version": "1.1.1",
+  "description": "website chat bot",
+  "main": "postcss.config.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "daisyui": "^3.9.3",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i tailwind.css -o assets/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rehanaf/reyzeecbz.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "rehanaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rehanaf/reyzeecbz/issues"
+  },
+  "homepage": "https://github.com/rehanaf/reyzeecbz#readme"
+}
